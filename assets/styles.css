@@ -35,7 +35,14 @@ header {
     width:100%;
 }
 
-.btn {
+.btn1, .btn2, .btn3 {
+    border: 1px solid gainsboro;
+    background-color:whitesmoke;
+    border-radius: 5px;
+    padding: 5px 10px;
+    outline:none;
+}
+button {
     border: 1px solid gainsboro;
     background-color:whitesmoke;
     border-radius: 5px;
@@ -43,7 +50,20 @@ header {
     outline:none;
 }
 
-.btn:hover {
+button:hover {
+    border-color: black;
+}
+
+
+.btn1:hover {
+    border-color: black;
+}
+
+.btn2:hover {
+    border-color: black;
+}
+
+.btn3:hover {
     border-color: black;
 }
 
@@ -51,4 +71,15 @@ header {
     width: 100%;
     text-align: center;
     margin: 0px auto;
+}
+
+#time {
+    padding-top:20px;
+}
+
+.instructions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:20px;
 }

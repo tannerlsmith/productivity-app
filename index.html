@@ -6,36 +6,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Be Productive</title>
     <link rel="stylesheet" href="./assets/styles.css">
-    <script type="text/javascript" src="./assets/script.js"></script>
 </head>
 <body>
     <!-- Header -->
-    <header class="header">Header</header>
-    
+    <header class="header">Productivity</header>
     <!-- Body -->
+
     <div class="grandparent" id="grandparent-id">
         <div class="hero">
-            <div class="control">
-                <div class="time-display">00:00:00</div>
-                <button class="btn" id="start-time">Start Timer</button>
-                <button class="btn" id="stop-time">Stop</button>
-                <button class="btn" id="reset-time">Reset</button>
+            <div class="instructions">
+                <ul>
+                    <li>When you start the timer, cups of coffee will change color, allowing you to track your time.</li>
+                    <li>One dark glass of coffee = 30 minutes.</li>
+                </ul>
             </div>
-
-            
+            <div class="control">
+                <div id="time">00:00:00</div>
+                <button id="start_btn" onclick='start()'>Start Timer</button>
+                <button id="pause_btn" onclick='pause()'>Stop</button>
+                <button id="reset_btn" onclick='reset()'>Reset</button>
+            </div>
         </div>
-        
     </div>
-    
-    
-    
-    
-    
-    
-    
-    
-    
+    <script src="assets/js/script.js"></script>
     <!-- Footer -->
-    <footer class="footer">Footer</footer>
+    <footer class="footer">Made by Tanner Smith, 2021</footer>
 </body>
 </html>
+
+
