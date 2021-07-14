@@ -4,33 +4,117 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Be Productive</title>
+    <title>Reader Assistant Pro</title>
     <link rel="stylesheet" href="./assets/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
     <!-- Header -->
-    <header class="header">Productivity</header>
+    <header class="header">Reader Assistant Pro</header>
     <!-- Body -->
-
     <div class="grandparent" id="grandparent-id">
-        <div class="hero">
+        <!-- Instructions container -->
+        <div class="container">
             <div class="instructions">
                 <ul>
                     <li>When you start the timer, cups of coffee will change color, allowing you to track your time.</li>
+                    <li>One light glass of coffee = 15 minutes.</li>
                     <li>One dark glass of coffee = 30 minutes.</li>
+                    <li>Each row is 1h30</li>
+                    <li>Use the dictionary API to look up words!</li>
+                    <li>This app will help you remain productive</li>
                 </ul>
             </div>
+            <!-- Controls container and Time Display -->
             <div class="control">
                 <div id="time">00:00:00</div>
                 <button id="start_btn" onclick='start()'>Start Timer</button>
                 <button id="pause_btn" onclick='pause()'>Stop</button>
                 <button id="reset_btn" onclick='reset()'>Reset</button>
             </div>
+            <div class="row align-items-start">
+                <div class="col">
+                    <img src="assets/empty-cup.png">
+                        <p>15 minutes</p>
+                    <img src="assets/filled-cup.png">
+                        <p>30 minutes</p>
+                </div>
+                <div class="col">
+                    <img src="assets/empty-cup.png">
+                        <p>15 minutes</p>
+                    <img src="assets/filled-cup.png">
+                        <p>30 minutes</p>
+                </div>
+                <div class="col">
+                    <img src="assets/empty-cup.png">
+                        <p>15 minutes</p>
+                    <img src="assets/filled-cup.png">
+                        <p>30 minutes</p>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col">
+                    <img src="assets/empty-cup.png">
+                        <p>15 minutes</p>
+                    <img src="assets/filled-cup.png">
+                        <p>30 minutes</p>
+                </div>
+                <div class="col">
+                    <img src="assets/empty-cup.png">
+                        <p>15 minutes</p>
+                    <img src="assets/filled-cup.png">
+                        <p>30 minutes</p>
+                </div>
+                <div class="col">
+                    <img src="assets/empty-cup.png">
+                        <p>15 minutes</p>
+                    <img src="assets/filled-cup.png">
+                        <p>30 minutes</p>
+                </div>
+            </div>
+            <div class="row align-items-end">
+                <div class="col">
+                    <img src="assets/empty-cup.png">
+                        <p>15 minutes</p>
+                    <img src="assets/filled-cup.png">
+                        <p>30 minutes</p>
+                </div>
+                <div class="col">
+                    <img src="assets/empty-cup.png">
+                        <p>15 minutes</p>
+                    <img src="assets/filled-cup.png">
+                        <p>30 minutes</p>
+                </div>
+                <div class="col">
+                    <img src="assets/empty-cup.png">
+                        <p>15 minutes</p>
+                    <img src="assets/filled-cup.png">
+                        <p>30 minutes</p>
+                </div>
+            </div>
         </div>
+        <!-- Dictionary Display -->
+        <div class="dictionary">
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div>
+
     <script src="assets/js/script.js"></script>
-    <!-- Footer -->
-    <footer class="footer">Made by Tanner Smith, 2021</footer>
 </body>
 </html>
 

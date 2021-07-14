@@ -6,35 +6,37 @@
     box-sizing: border-box;
 }
 
-body {
+html, body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Header & footer*/
 header {
     text-align: center;
     background-color: rgb(120, 129, 219);
     color: #fff;
-    padding: 50px;
+    padding: 30px;
 }
 
-.footer {
-    text-align: center;
-    background-color: rgb(120, 129, 219);
-    color: #fff;
-    padding: 20px;
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
-
+/* Grandparent of all elements below & above the header/footer */
 .grandparent {
     background-color: green;
     color: #fff;
     padding: 20px;
     position:absolute;
     width:100%;
+    min-height:100
 }
 
+/* 1st: instructions and About-section */
+.instructions {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom:20px;
+}
+
+/* Timer Buttons and Display (controls) */
 .btn1, .btn2, .btn3 {
     border: 1px solid gainsboro;
     background-color:whitesmoke;
@@ -42,6 +44,7 @@ header {
     padding: 5px 10px;
     outline:none;
 }
+
 button {
     border: 1px solid gainsboro;
     background-color:whitesmoke;
@@ -51,20 +54,20 @@ button {
 }
 
 button:hover {
-    border-color: black;
+    border-color: palegreen;
 }
 
 
 .btn1:hover {
-    border-color: black;
+    border-color: palegreen;
 }
 
 .btn2:hover {
-    border-color: black;
+    border-color: palegreen;
 }
 
 .btn3:hover {
-    border-color: black;
+    border-color: palegreen;
 }
 
 .control {
@@ -77,9 +80,10 @@ button:hover {
     padding-top:20px;
 }
 
-.instructions {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom:20px;
+/* Icon Display */
+.container {
+    width: 100%;
+    padding-top: 35px;
 }
+
+/* Dictionary Section */

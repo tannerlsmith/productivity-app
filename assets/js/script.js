@@ -1,4 +1,9 @@
-// vars for time
+// TIMER JAVASCRIPT
+// ====================================================
+// 
+// 
+// 
+// ====================================================
 const timer = document.querySelector('#time');
 const start_btn = document.querySelector('#start_btn');
 const pause_btn = document.querySelector('#pause_btn');
@@ -51,6 +56,14 @@ function toHHMMSS(time) {
 function showBtn(btnArr) {
     btnArr.forEach((btn) => (btn.style.display = 'inline-block'));
 }
+// TIMER END
+// ====================================================
+// 
+// 
+// 
+// DISPLAY SCRIPT START
+// ====================================================
+function displayItems () {}
 
 
 
